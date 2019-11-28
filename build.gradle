@@ -9,7 +9,7 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'maven-publish'
 
-group 'com.sadeem_egypt'
+group 'com.github.sadeemhup'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
@@ -145,7 +145,7 @@ artifacts {
 
 
 jar {
-    baseName = 'Sadeem-egypt-com-CGEN-web-Framework'
+    baseName = 'com.github.sadeemhup'
     version =  "1.0"
     mainClassName = "com.cloudsgen.system.boot"
     manifest {
